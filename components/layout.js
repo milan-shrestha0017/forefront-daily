@@ -13,6 +13,10 @@ const Layout = (props) => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <link 
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        />
       </Head>
       <div>
         {props.children}
