@@ -29,10 +29,10 @@ const List = () => {
                             <Col key={key} md={4}>
                                 <div className="post-box">
                                 <div className="mb-3">
-                                    <Image src={"/" + list.image} width={300} height={250}/>
+                                    <Image src={"/" + list.image} width={300} height={250} alt="" />
                                 </div>
                                 <h5 className="text-dark font-weight-normal pt-1 mb-3">{list.title}</h5>
-                                <a href={list.link} target="_blank" rel="noreferrer" className="btn btn-success">Read article</a>
+                                <a href={list.link} target="_blank" rel="noopener noreferrer" className="btn btn-success">Read article</a>
                                 </div>
                             </Col>
                         )
