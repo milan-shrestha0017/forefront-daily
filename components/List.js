@@ -35,7 +35,7 @@ const List = () => {
                                 <h5 className="text-dark font-weight-normal pt-1 mb-3">{list.title}</h5>
                                 {/* <a href={list.link} target="_blank" rel="noopener noreferrer" className="btn btn-success">Read article</a> */}
                                 <Link href={list.link}>
-                                    <a className="btn btn-success" rel="noopener noreferrer" target="_blank">Read article</a>
+                                    <a className="btn btn-success">Read article</a>
                                 </Link>
                                 </div>
                             </Col>
