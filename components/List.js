@@ -32,7 +32,7 @@ const List = () => {
                                     <Image src={"/" + list.image} width={300} height={250}/>
                                 </div>
                                 <h5 className="text-dark font-weight-normal pt-1 mb-3">{list.title}</h5>
-                                <a href={list.link} target="_blank" className="btn btn-success">Read article</a>
+                                <a href={list.link} target="_blank" rel="noreferrer" className="btn btn-success">Read article</a>
                                 </div>
                             </Col>
                         )
