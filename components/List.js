@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'reactstrap'
+import Link from 'next/link'
 import Image from 'next/image'
 
 const List = () => {
@@ -32,7 +33,10 @@ const List = () => {
                                     <Image src={"/" + list.image} width={300} height={250} alt="" />
                                 </div>
                                 <h5 className="text-dark font-weight-normal pt-1 mb-3">{list.title}</h5>
-                                <a href={list.link} target="_blank" rel="noopener noreferrer" className="btn btn-success">Read article</a>
+                                {/* <a href={list.link} target="_blank" rel="noopener noreferrer" className="btn btn-success">Read article</a> */}
+                                <Link href={list.link}>
+                                    <a className="btn btn-success" rel="noopener noreferrer" target="_blank">Read article</a>
+                                </Link>
                                 </div>
                             </Col>
                         )
