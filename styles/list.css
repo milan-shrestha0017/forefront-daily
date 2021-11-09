@@ -1,0 +1,14 @@
+.section{
+    margin: 75px 0;
+}
+
+.list-title{
+    margin-bottom: 35px;
+}
+
+.post-box{
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px 10px;
+}
