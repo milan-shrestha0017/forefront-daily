@@ -5,6 +5,11 @@ body {
   font-family: "Merriweather", serif;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .section{
   padding: 5rem 0;
 }
