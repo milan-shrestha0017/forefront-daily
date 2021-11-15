@@ -6,12 +6,20 @@ body {
 }
 
 .section{
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 @media screen and (max-width: 575px){
-  h1,h2,h3,h4,h5,h6{
-    font-size: 85%;
+  h3{
+    font-size: 1.35rem;
+  }
+
+  h4{
+    font-size: 1.15rem;
+  }
+
+  h5{
+    font-size: 1rem;
   }
 
   .section{

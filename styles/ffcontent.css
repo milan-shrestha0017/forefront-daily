@@ -1,4 +1,15 @@
 .ffContent{
-    background-color: #4B5563;
+    background-color: #121212;
     color: #fff;
+}
+
+.ff-content-btn{
+    background-color: #fff;
+    width: 9rem;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 575px){
+
+
 }
