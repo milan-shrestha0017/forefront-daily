@@ -1,6 +1,6 @@
 .navbar{
-    background-color: #A546FF;
-    padding: 35px 0;
+    background-color: #121212;
+    padding: 50px 0;
 }
 
 .logo{
@@ -12,4 +12,14 @@
 .header-text{
     color: #fff;
     font-style: italic;
+}
+
+@media screen and (max-width: 575px){
+    .navbar{
+        padding: 35px 0;
+    }
+    
+    .logo{
+        font-size: 2rem;
+    }
 }
