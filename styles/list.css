@@ -1,10 +1,21 @@
 .list-title{
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .post-box{
-    border: 1px solid #000;
+    border: 0.75px solid #808080;
     border-radius: 5px;
-    margin: 20px;
+    margin: 25px;
     padding: 20px 10px;
+}
+
+@media screen and (max-width: 575px){
+    .list-title{
+        margin-bottom: 10px;
+    }
+
+    .post-box{
+        margin: 15px;
+        padding: 10px 7px;;
+    }
 }
