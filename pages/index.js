@@ -1,7 +1,7 @@
-import Layout from '../components/Layout'
-import Header from '../components/Header'
-import List from '../components/List'
-import FfContent from '../components/FfContent'
+import Layout from './Layout'
+import Header from './Header'
+import List from './List'
+import FfContent from './FfContent'
 
 export default function Home() {
   return (
