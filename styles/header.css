@@ -1,12 +1,13 @@
 .navbar{
     background-color: #121212;
-    padding: 50px 0;
+    padding: 4rem 0;
 }
 
 .logo{
     font-family: 'Merriweather', serif;
     font-size: 3rem;
     color: #fff !important;
+    margin-right: 0;
 }
 
 .header-text{
