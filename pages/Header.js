@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <Navbar className="text-center" light expand="md">
             <Container>
-                <NavbarBrand className="logo">ForeFront Daily</NavbarBrand>
+                <NavbarBrand className="logo">Forefront Daily</NavbarBrand>
                 <h4 className="header-text">Your daily dose of crypto news</h4>
             </Container>
         </Navbar>
