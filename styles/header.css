@@ -1,18 +1,28 @@
 .navbar{
-    background-color: #0A0B0C;
-    padding: 4rem 0;
+    /* background-color: #0A0B0C; */
+    background-image: linear-gradient(to right, #E250DA, #FDAC5F);
+    padding: 7rem 0;
 }
 
-.logo{
-    font-family: 'Merriweather', serif;
-    font-size: 3rem;
+.brand-name{
+    /* font-family: 'Merriweather', serif; */
+    font-family: "Poppins", sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
     color: #fff !important;
     margin-right: 0;
 }
 
+.brand-name-tag{
+    color: #fff;
+    margin-top: -1rem;
+}
+
 .header-text{
-    color: #9A9B9B;
-    font-style: italic;
+    color: #fff;
+    font-size: 1.15rem;
+    padding-top: 2.5rem;
+
 }
 
 @media screen and (max-width: 575px){
@@ -20,7 +30,16 @@
         padding: 35px 0;
     }
     
-    .logo{
-        font-size: 2rem;
+    .brand-name{
+        font-size: 2.75rem;
+    }
+
+    .brand-name-tag{
+        margin-top: 0;
+    }
+
+    .header-text{
+        padding-top: 0.5rem;
+        font-size: 1rem;
     }
 }

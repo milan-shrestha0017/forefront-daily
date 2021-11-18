@@ -19,7 +19,7 @@ const List = () => {
     return (
         <div className="section">
             <Container className="text-center">
-                <Row className="justify-content-center">
+                {/* <Row className="justify-content-center">
                     <Col md={8}>
                         <div className="text-center">
                             <h4 className="list-title font-weight-normal">
@@ -27,7 +27,7 @@ const List = () => {
                             </h4>
                         </div>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                     {
                         ffList.map((list, key) => 
