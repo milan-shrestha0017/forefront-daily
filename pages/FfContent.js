@@ -12,7 +12,7 @@ const FfContent = () => {
             <Container className="text-center">
                 <Row className="justify-content-center">
                     <Col md={4}>
-                        <h3 className="mb-5">More from Forefront</h3>
+                        <h2 className="mb-5">More from Forefront</h2>
                     </Col>      
                 </Row>
                 <Row>
